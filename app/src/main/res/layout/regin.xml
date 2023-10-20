@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:background="#ffc107"
+        android:layoutAnimation="@transition/anim_setting_right">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="РЕГИСТРАЦИЯ"
+            android:textColor="#F8F8F8"
+            android:textSize="24sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Логин:"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="309dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/radius_button"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textColor="#FFC107"
+            android:hint="Мой логин"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Пароль:"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="309dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/radius_button"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textColor="#FFC107"
+            android:hint="Мой пароль"
+            />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Повтор пароля:"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="309dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/radius_button"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textColor="#FFC107"
+            android:hint="Мой пароль"
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="259dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="75dp"
+            android:background="@drawable/radius_button"
+            android:backgroundTint="@color/white"
+            android:text="Продолжить"
+            android:textColor="#FFC107"
+            app:cornerRadius="25dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
